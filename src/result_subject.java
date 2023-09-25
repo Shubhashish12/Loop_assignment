@@ -15,7 +15,7 @@ public class result_subject {
         }
 
         System.out.println("Total marks: " + marks);
-        System.out.println("Assuming, full marks is " + subjects * 100);
+        System.out.println("Assuming, total marks in all subjects marks is " + subjects * 100);
 
         int percentage = (int) ((marks /(subjects * 100)) * 100);
 
